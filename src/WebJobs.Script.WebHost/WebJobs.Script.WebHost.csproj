@@ -85,7 +85,9 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <PackageReference Include="System.Net.NameResolution" Version="4.3.0" />
-	<PackageReference Include="ServerlessSecurity$(RuntimeIdentifier)" Version="*-*" />
+    <PackageReference Include="ServerlessSecurity$(RuntimeIdentifier)" Version="*-*" />
+    <PackageReference Include="PluginExample$(RuntimeIdentifier)" Version="*-*" />
+    <PackageReference Include="PluginInterceptorTest$(RuntimeIdentifier)" Version="*-*" />
   </ItemGroup>
 
   <ItemGroup>
